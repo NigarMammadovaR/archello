@@ -1,0 +1,122 @@
+footer{
+    height: 120%;
+    background: #080f26;
+    color: #fff;
+    .footer-top{
+        div{
+            margin-right: 100px;
+            p{
+                margin:50px 0 60px 0 ;
+                font-size: 20px;
+                position: relative;
+            }
+            p::after{
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    width: 40px;
+                    border-bottom: 3px solid #007aff;
+                    border-radius: 1.5px;
+            }
+            ul{
+                li{
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+            }
+           
+        }
+        .social{
+        
+            ul{
+
+                li{
+                    margin-left: 10px;
+                    font-size: 30px;
+                }
+            }
+            .btn{
+                margin-top: 30px;
+                font-size: 20px;
+                background: #007aff;
+                color: #fff;
+                border-radius: 100px;
+                padding: 0 15px 0 15px;
+                margin-right: 40px;
+            }
+        }
+    }
+    .footer-bottom{
+        margin-top: 40px;
+        div{
+        
+            ul{
+                li{
+                    margin-left: 10px;
+                    img{
+                        width: 20px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+        color:#fff;
+    }
+    
+}
+
+@media screen and (max-width:498px){
+    footer{
+
+
+    .footer-top{
+        div{
+            margin-right: 160px;
+            p{
+                margin:50px 0 50px 0 ;
+                font-size: 18px;
+            
+            }
+            ul{
+                li{
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+            }
+        
+        }
+        .social{
+        
+            ul{
+
+                li{
+                    margin-left: 10px;
+                    font-size: 30px;
+                }
+            }
+            .btn{
+                margin-top: 25px;
+                font-size: 19px;
+            }
+        }
+    }
+    .footer-bottom{
+        margin-top: 35px;
+        div{
+        
+            ul{
+                li{
+                    margin-left: 10px;
+                    img{
+                        width: 20px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+}

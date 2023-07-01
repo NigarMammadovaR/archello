@@ -1,0 +1,56 @@
+.reset-search{
+    background-color: #eaeced;
+    max-width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 0 8px 80px;
+    color: black;
+    font-weight: 500;
+
+}
+
+.product-filter{
+    position: relative;
+   height: 40px;
+    color: #fff;
+    background-color: #007aff;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 240px;
+    align-items: center;
+    padding-top: 7px;
+    svg{
+       position: absolute;
+       top:8px;
+       left:10px;
+       font-size: 22px;
+    }
+}
+@media screen and (max-width:767px){
+    .product-filter{
+     
+        margin-left: 42.5%;
+
+        svg{
+           position: absolute;
+           top:8px;
+           left:10px;
+           font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width:450px){
+    .product-filter{
+     
+        margin-left: 39%;
+
+        svg{
+           position: absolute;
+           top:8px;
+           left:10px;
+           font-size: 22px;
+        }
+    }
+}
+

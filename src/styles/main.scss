@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1.39;
+    color: #080f26;
+    background-color: #fff;
+    // overflow: hidden;
+    
+}
+.container{
+ width: 92%;
+ margin: 0 auto;
+}
+
+.container-fluid{
+    width: 98%;
+    margin: 0 auto;
+
+}
+.container-fluidd{
+    width: 95%;
+    margin: 0 auto;
+}
